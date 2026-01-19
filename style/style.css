@@ -8,6 +8,7 @@
 :root {
     --bg-color-1: #1A0B2E;
     --bg-color-2: #230E3D;
+    --bg-color-3: rgba(53, 17, 101, 0.4);
     --color-1: linear-gradient(30deg, #F7E93F, #FB09B4, #9100F8);
     --color-green-1: #00FF88;
     --font-color-1: (#FFFFFF, rgba(255, 255, 255, 1));
@@ -190,4 +191,68 @@ nav img {
 .gA-box-info {
     text-transform: uppercase;
     opacity: .8;
+}
+
+
+/* --Choose-- */
+
+.why-choose {
+    background: var(--bg-color-2);
+    padding: 120px 0;
+}
+.choose {
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+.choose-tittle {
+    text-transform: uppercase;
+    margin-bottom: 40px;
+}
+
+.choose-container {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(2,225px) 273px;
+    grid-template-areas: 
+    "audio mobile mobile"
+    "audio community community"
+    "exclusive exclusive resource";
+    gap: 30px;
+}
+.audio {
+    grid-area: audio;
+}
+.mobile {
+    grid-area: mobile;
+}
+.community {
+    grid-area: community;
+}
+.exclusive {
+    grid-area: exclusive;
+}
+.resource {
+    grid-area: resource;
+}
+
+
+.choose-capsule {
+    border-radius: 40px;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    justify-content: center;
+    background: var(--bg-color-3);
+}
+
+.choose-capsule h2 {
+    font-size: 24px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+.choose-capsule p {
+    line-height: 24px;
+    opacity: .6;
 }
