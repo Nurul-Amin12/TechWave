@@ -342,3 +342,29 @@ iframe {
     width: 16px;
     height: 16px;
 }
+
+
+/* --Footer-- */
+
+
+.tail-box
+{
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+
+.logo {
+    justify-content: center;
+}
+
+.tail-media {
+    gap: 40px;
+    margin: 32px 0;
+}
+.tail .media-img {
+    width: 24px;
+    height: 24px;
+    margin-right: 8px;
+}
