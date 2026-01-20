@@ -544,4 +544,68 @@ iframe {
     }
     
 
+
+/* ==Featured and Host== */
+
+    .featured-host {
+        max-width: 440px;
+        padding: 40px 0;
+    }
+    
+    .featured-tittle {
+        font-size: 32px;
+        line-height: 39px;
+    }
+
+    .frame-main {
+        display: flex;
+        flex-direction: column;
+        padding-top: 24px;
+        gap: 30px;
+        align-items: center;
+    }
+    .frame{
+        width: 400px;
+    }
+    iframe {
+        width: 400px;
+        height: 225px;
+    }
+    .frame-info {
+        padding: 16px;
+        gap: 8px;
+        padding: 24px;
+    }
+
+
+    /* host */
+    .host {
+        padding-top: 60px;
+    }
+
+    .host-tittle {
+        padding-bottom: 24px;
+        font-size: 32px;
+    }
+    
+    .host-container {
+        width: 400px;
+        padding: 24px;
+        margin: 0 auto;
+        border-radius: 24px;
+        flex-direction: column;
+        gap: 16px;
+    }
+    
+    .host-description {
+        align-items: center;
+        text-align: center;
+    }
+
+    .host-img {
+        width: 150px;
+        height: 150px;
+    }
+
+
 }
