@@ -66,7 +66,7 @@ nav {
 
     max-width: 1200px;
     margin: 0 auto;
-    padding: 16px;
+    padding: 16px 0;
 }
 
 .nav-image {
@@ -103,6 +103,9 @@ nav img {
     font-weight: 600;
 }
 
+.menu {
+    display: none;
+}
 
 
 /* --Banner-- */
@@ -388,4 +391,25 @@ iframe {
     width: 24px;
     height: 24px;
     margin-right: 8px;
+}
+
+
+
+/* ===Media Query */
+
+@media screen and (max-width:576px) {
+    
+    /* --Navbar-- */
+
+    nav {
+        max-width: 440px;
+    }
+    .nav-button,
+    .nav-list {
+        display: none;
+    }
+    .menu {
+        display: block;
+        cursor: pointer;
+    }   
 }
