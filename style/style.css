@@ -44,12 +44,13 @@ button:hover {
     color: var(--bg-color-2);
 }
 .capsule:hover span::before {
-    content: "To Explore More Subscribe Now";
+    content: "To Explore More, Subscribe Now";
 }
 .capsule:hover {
-    width: 250px;
+    width: 252px;
     height: 30px;
     font-size: 14px;
+    border: 1px  solid black;
 }
 
 
@@ -584,6 +585,10 @@ iframe {
         gap: 8px;
         padding: 24px;
     }
+    .frame-tittle {
+        font-size: 20px;
+        line-height: 24px;
+    }
 
 
     /* host */
@@ -638,13 +643,16 @@ iframe {
 
     .tail-media {
         flex-wrap: wrap;
-        gap: 16px;
+        gap: 10px;
         margin: 32px 0;
         justify-content: center;
     }
+    .media-link span {
+        font-size: 14px;
+    }
     .tail .media-img {
-        width: 22px;
-        height: 22px;
+        width: 20px;
+        height: 20px;
         margin-right: 6px;
     }
 
