@@ -31,6 +31,8 @@ body {
     background: var(--bg-color-1);
 }
 
+
+
 /* ==Hover Work== */
 
 button:hover {
@@ -51,13 +53,15 @@ button:hover {
 }
 
 
-/* Header */
+
+
+/* ==Header== */
 
 header {
     border-bottom: 1px solid #553d826c;
 }
 
-/* --Navbar-- */
+/* ==Navbar== */
 
 nav {
     display: flex;
@@ -108,10 +112,9 @@ nav img {
 }
 
 
-/* --Banner-- */
+/* ==Banner== */
 
 .banner-music {
-    max-width: 550px;
     margin: 0 auto;
     top: 35%;
     left: 50%;
@@ -412,4 +415,62 @@ iframe {
         display: block;
         cursor: pointer;
     }   
+
+
+    /* --Banner-- */
+
+    .banner-bg {
+        height: 466px;
+    }
+
+    .banner-music {
+        margin: 0 auto;
+        top: 35%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+    }
+
+    .hero-circle {
+        width: 200px;
+        height: 200px;   
+    }
+
+    .microphone{
+        width: 25%;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+    }
+
+    .capsule {
+        background-color: var(--color-green-1);
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 19px;
+        width: 70px;
+        top: 15%;
+        left: 95%;
+        transform: translate(-50%,-50%);
+    }
+
+    .banner-listen h2 {
+        margin-top: 24px;
+        font-size: 40px;
+        line-height: 48px;
+        margin-bottom: 16px;
+    }
+    .banner-info {
+        text-align: center;
+    }
+    
+    .banner-btn1, .banner-btn2 {
+        gap: 5px;
+        margin-top: 24px;
+    }
+    
+    .banner-btn1{
+        width: 210px;
+    }
+    
+
 }
