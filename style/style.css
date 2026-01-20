@@ -507,5 +507,41 @@ iframe {
     }
 
     
+    /* ==Choose== */
+
+    .why-choose {
+        padding: 40px 20px;
+    }
+    .choose {
+        max-width: 440px;
+    }
+
+    .choose-tittle {
+        margin-bottom: 16px;
+        font-size: 32px;
+    }
+
+    .choose-container {
+        grid-template-columns: repeat(1,400px);
+        grid-template-rows: repeat(5,auto);
+        grid-template-areas: 
+        "audio"
+        "mobile"
+        "community"
+        "exclusive"
+        "resource";
+
+        gap: 16px;
+        justify-content: center;
+    }
+
+    .choose-capsule {
+        border-radius: 24px;
+        padding: 24px;
+    }
+    .choose-capsule h2 {
+        font-size: 22px;
+    }
+    
 
 }
