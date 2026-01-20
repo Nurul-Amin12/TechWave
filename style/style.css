@@ -568,14 +568,13 @@ iframe {
         align-items: center;
     }
     .frame{
-        width: 400px;
+        max-width: 400px;
     }
     iframe {
         width: 400px;
         height: 225px;
     }
     .frame-info {
-        padding: 16px;
         gap: 8px;
         padding: 24px;
     }
